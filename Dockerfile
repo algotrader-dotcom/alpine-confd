@@ -1,4 +1,4 @@
-FROM dockage/alpine-openrc:3.6
+FROM dockage/alpine-openrc:3.5
 MAINTAINER Mohammad Abdoli Rad <m.abdolirad@gmail.com>
 
 ENV CONFD_VERSION=0.14.0

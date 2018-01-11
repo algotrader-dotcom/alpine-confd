@@ -1,4 +1,4 @@
-# alpine-confd [![Docker Pulls](https://img.shields.io/docker/pulls/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/) [![Docker Stars](https://img.shields.io/docker/stars/dockage/alpine-confd.svg?style=flat)](https://hub.docker.com/r/dockage/alpine-confd/) [![MicroBadger](https://images.microbadger.com/badges/image/dockage/alpine-confd:3.6.svg)](https://microbadger.com/images/dockage/alpine-confd:3.6) [![Docker Build Status](https://img.shields.io/docker/build/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/) [![Docker Automated build](https://img.shields.io/docker/automated/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/)
+# alpine-confd [![Docker Pulls](https://img.shields.io/docker/pulls/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/) [![Docker Stars](https://img.shields.io/docker/stars/dockage/alpine-confd.svg?style=flat)](https://hub.docker.com/r/dockage/alpine-confd/) [![MicroBadger](https://images.microbadger.com/badges/image/dockage/alpine-confd:3.5.svg)](https://microbadger.com/images/dockage/alpine-confd:3.5) [![Docker Build Status](https://img.shields.io/docker/build/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/) [![Docker Automated build](https://img.shields.io/docker/automated/dockage/alpine-confd.svg)](https://hub.docker.com/r/dockage/alpine-confd/)
 
 [`confd`](http://confd.io) is a lightweight configuration management tool focused on:
 
@@ -33,7 +33,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/dockage/alpine-confd)
 
 ```bash
-docker pull dockage/alpine-confd:3.6
+docker pull dockage/alpine-confd:3.5
 ```
 
 Alternatively you can build the image yourself.
