@@ -7,7 +7,7 @@ COPY assets/root/ /
 
 ADD https://github.com/kelseyhightower/confd/releases/download/v${CONFD_VERSION}/confd-${CONFD_VERSION}-linux-amd64 /usr/sbin/confd
 RUN chmod +x /usr/sbin/confd \
-    && rc-update add confd default \
-    && rc-update add local
+    && rc-update add local \
+    && rc-update add confd
 
 WORKDIR /etc/confd
